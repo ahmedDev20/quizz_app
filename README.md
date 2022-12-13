@@ -1,16 +1,18 @@
-# quizz_app
+<div align="center">
+<a href="https://flutter.io/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png" alt="Logo" width=200>
+</a>
 
-A new Flutter project.
+<h3 align="center">
+    Maroc Quiz
+</h3>
 
-## Getting Started
+<p align="center">
+    Flutter app with Flutter that uses Firebase
+</p>
 
-This project is a starting point for a Flutter application.
+</div>
 
-A few resources to get you started if this is your first Flutter project:
+### Firebase
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This aoo is using Firebase. We use Cloud Firestore and Cloud Storage to handle CRUD operations and to store topics and quizzes images.

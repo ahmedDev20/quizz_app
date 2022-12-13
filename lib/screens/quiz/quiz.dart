@@ -280,18 +280,19 @@ class QuestionPage extends StatelessWidget {
     }
 
     showModalBottomSheet(
+      isDismissible: false,
       context: context,
       builder: (BuildContext context) {
         return Container(
-          height: 250,
-          padding: const EdgeInsets.all(16),
+          height: 200,
+          padding: const EdgeInsets.all(10),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               Text(
                 correct ? 'Good Job!' : 'Wrong',
-                style: const TextStyle(fontSize: 20.0),
+                style: const TextStyle(fontSize: 25.0),
               ),
               Text(
                 opt.detail,
