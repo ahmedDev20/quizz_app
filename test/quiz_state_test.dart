@@ -9,4 +9,12 @@ void main() {
 
     expect(state.progress, 10);
   });
+
+  test('State progress should be -5', () {
+    final state = QuizState();
+
+    state.progress = -5;
+
+    expect(state.progress, -5);
+  });
 }
