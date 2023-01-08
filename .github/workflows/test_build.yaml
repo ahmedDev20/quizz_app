@@ -1,13 +1,17 @@
 name: Unit testing and building
 on: [push, workflow_dispatch]
 jobs:
-  drive:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - uses: subosito/flutter-action@v1
         with:
          args: test
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
       - uses: subosito/flutter-action@v1
         with:
          args: build apk
