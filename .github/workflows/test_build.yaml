@@ -6,13 +6,12 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: subosito/flutter-action@v1
-        with:
-         args: test
+      - run: flutter test
+
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - uses: subosito/flutter-action@v1
-        with:
-         args: build apk
+      - run: flutter build apk
       
